@@ -1,10 +1,7 @@
 // Closures
 
-function outer () {
-    return function iner() {
-        console.log("hi im batman");
+function  greeting (type) {
+    return function (user) {
+        console.log(`${type} to outer user ${user}!`);
     }
 }
-
-const sayyhi = outer();
-sayyhi();
