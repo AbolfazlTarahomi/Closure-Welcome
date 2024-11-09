@@ -5,3 +5,9 @@ function  greeting (type) {
         console.log(`${type} to outer user ${user}!`);
     }
 }
+
+const welcome = greeting("welcome");
+welcome("Ali");
+welcome("Mario");
+
+const hello = greeting("Hello");
